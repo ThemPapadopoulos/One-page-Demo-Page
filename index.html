@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+            crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+      <title>Demo One Page</title>
+
+</head>
+
+<body class="w-100">
+      <!-- Header  -->
+      <header id="header">
+            <div class="row col-12 ">
+                  <div class="logo col-md-6 p-4 d-flex">
+                        <a class="justify-content-center" href="index.html">
+                              <img src="./assets/desktop/Group 158.png" alt="" />
+                        </a>
+                  </div>
+
+                  <div id="navbar" class="navbar d-flex justify-content-end col-md-6 ">
+                        <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="#firstcolumn">About Us</a></li>
+                              <li><a href="#services">Classes</a></li>
+                              <li><a href="#contactform">Contact</a></li>
+                        </ul>
+                  </div>
+            </div>
+      </header>
+      <!-- carousel -->
+      <main>
+            <div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                              aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner ">
+                        <div class="carousel-item active " data-bs-interval="5000">
+                              <img src="./assets/desktop/Group 169.png" class="d-block w-100" alt="..." />
+                              <div class="carousel-caption ">
+                                    <span>BUYING A DOMAIN NAME</span>
+                                    <p>Each Name Comes With The .Com Address</p>
+                                    <button class="btn btn-primary btn-lg mt-3">Get Started</button>
+                              </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                              <img src="./assets/desktop/Group 169.png" class="d-block w-100" alt="..." />
+                              <div class="carousel-caption">
+                                    <span>BUYING A DOMAIN NAME</span>
+                                    <p>Each Name Comes With The .Com Address</p>
+                                    <button class="btn btn-primary btn-lg">Get Started</button>
+                              </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                              <img src="./assets/desktop/Group 169.png" class="d-block w-100" alt="..." />
+                              <div class="carousel-caption">
+                                    <span>BUYING A DOMAIN NAME</span>
+                                    <p>Each Name Comes With The .Com Address</p>
+                                    <button class="btn btn-primary btn-lg">Get Started</button>
+                              </div>
+                        </div>
+                  </div>
+                  <button class="carousel-control-prev  d-none d-md-block" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next  d-none d-md-block" type="button"
+                        data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+
+            <!-- first section -->
+            <div class="container prices">
+                  <div class="row">
+                        <div class="col-md-4 programs d-flex p-2 justify-content-center" id="first">
+                              <img src="./assets/desktop/Group 151.png" class="w-100" alt="..." />
+                              <div>
+                                    <h5>Generate a domain</h5>
+                                    <h6>Use a computer</h6>
+                                    <button class="btn" id="first">$60*/M</button>
+                              </div>
+                        </div>
+
+                        <div class="col-md-4 programs p-2 d-flex justify-content-center" id="second">
+                              <img src="./assets/desktop/Group 152.png" class="w-100" alt="..." />
+                              <div>
+                                    <h5>Carefully selected domain</h5>
+                                    <h6>for each business</h6>
+                                    <button class="btn">$120*/M</button>
+                              </div>
+                        </div>
+
+                        <div class="col-md-4 programs p-2 d-flex justify-content-center" id="third">
+                              <img src="./assets/desktop/Group 153.png" class="w-100" alt="..." />
+                              <div>
+                                    <h5>Unique business domain</h5>
+                                    <h6>made for you</h6>
+                                    <button class="btn">$200*/M</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- second section -->
+
+            <section class="container about-us">
+                  <div class="row container-fluid">
+                        <div class="col-md-6 order-1 container d-flex flex-column" id="firstcolumn">
+
+                              <h6>ABOUT US</h6>
+
+                              <h2>Welcome to SAVYEVER</h2>
+
+                              <hr class="mt-4" />
+                              <div class="d-flex flex-column" id="paragraphs">
+                                    <p>
+                                          NAMES THAT CREATE BRAND PREFERENCE
+                                    </p>
+                                    <p>
+                                          After all, if a business name lacks workable
+                                          qualities, why would you use it? Why would customers want it? A good business
+                                          name
+                                          should stand on its own strength and give your endeavor momentum.
+                                    </p>
+                                    <p>
+                                          The business names found with SAVYEVER business domain name generator are
+                                          guaranteed to make an
+                                          impression on your target audience and make them want to come back to your
+                                          website
+                                          every time.
+                                    </p>
+                                    <p>
+                                          This is called brand preference. Think of some of your favorite
+                                          websites and ask yourself, are their names indistinguishable from their
+                                          business?
+                                          That's the sign of a job well done.
+                                    </p>
+                              </div>
+
+                              <button class="btn btn-primary btn-lg my-3 order-md-4">Read More</button>
+                        </div>
+                        <div class="col-md-2 order-2"></div>
+                        <div class="col-md-4 container order-3" id="secondcolumn">
+                              <img src="./assets/desktop/Mask Group 18.png" alt="" />
+                              <img src="./assets/desktop/Mask Group 6.png" alt="" />
+                        </div>
+                  </div>
+            </section>
+
+            <!-- third section -->
+            <section class="services" id="services">
+                  <div class="gridheader py-4 container col-md-12">
+
+                        <h1>Our Classes</h1>
+                        <hr />
+                        <p>
+                              They have been highlighted on our site because of their brandable qualities, which will
+                              make an impression on the audience you're trying to reach.
+                        </p>
+
+                  </div>
+                  <div class="row  p-0 m-0">
+                        <div class="imgservices col-md-6">
+                              <img src="./assets/desktop/Mask Group 7.png" alt="" class="w-100" />
+                              <span>
+                                    Effective names
+                              </span>
+                        </div>
+                        <div class="imgservices col-md-6">
+                              <img src="./assets/desktop/Mask Group 8.png" alt="" class="w-100" />
+                              <span>
+                                    Industry finest
+                              </span>
+                        </div>
+                  </div>
+                  <div class="row p-0 m-0">
+                        <div class="imgservices col-md-6">
+                              <img src="./assets/desktop/Mask Group 9.png" alt="" class="w-100" />
+                              <span>
+                                    Popular domains
+                              </span>
+                        </div>
+                        <div class="imgservices col-md-6">
+                              <img src="./assets/desktop/Mask Group 10.png" alt="" class="w-100" />
+                              <span>
+                                    Short domains
+                              </span>
+                        </div>
+                  </div>
+            </section>
+
+            <!-- fourth section -->
+            <section class="col-12 grid-container2 p-2 mb-4 d-flex justify-content-center w-100">
+                  <div class="gridheader2">
+                        <h1>Meet Our Team</h1>
+                        <hr />
+                        <p class="w-75 m-4">
+                              SAVYEVER continues to generate thousands of available business names for our generator.
+                              Use our business name generator by industry and find the name that is right for your
+                              business!
+                        </p>
+                  </div>
+            </section>
+
+            <!-- fourth section double carousel -->
+            <div class="carousel our-team container">
+
+                  <button type="button" class="slick-prev slick-arrow"> </button>
+                  <div class="multiple-items ">
+
+                        <div class="col-md-6 p-3">
+                              <div class="card ">
+                                    <img alt="100%x280" src="./assets/desktop/Mask Group 11.png">
+                                    <div class="card-body">
+                                          <h4 class="card-title d-flex justify-content-center">
+                                                George Jones</h4>
+                                    </div>
+                              </div>
+                        </div>
+
+
+                        <div class="col-md-6 p-3">
+                              <div class="card ">
+                                    <img alt="100%x280" src="./assets/desktop/Mask Group 12.png">
+                                    <div class="card-body">
+                                          <h4 class="card-title d-flex justify-content-center">
+                                                Lynn Taylor</h4>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-6 p-3">
+                              <div class="card ">
+                                    <img alt="100%x280" src="./assets/desktop/Mask Group 12.png">
+                                    <div class="card-body">
+                                          <h4 class="card-title d-flex justify-content-center">
+                                                Lynn Taylor</h4>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <button type="button" class="slick-next slick-arrow"> </button>
+
+            </div>
+
+            <!-- fifth section -->
+            <section class="contactform container-fluid justify-content-center py-3" id="contactform">
+                  <div class="gridheader container py-3">
+                        <h1 class='d-flex justify-content-center'>Contact Us</h1>
+                        <hr />
+                  </div>
+
+
+                  <form class="container" action="" name="registration">
+                        <div class="row d-flex container justify-content-center">
+                              <div class="col-md-6 px-1">
+                                    <input required type="text" name="firstname" class="form-control my-2"
+                                          placeholder="Name">
+                              </div>
+                              <div class="col-md-6 px-1">
+                                    <input type="text" name="lastname" class="form-control my-2" placeholder="Surname">
+                              </div>
+                        </div>
+
+                        <div class="row d-flex container justify-content-center">
+                              <div class="col-md-6 px-1">
+                                    <input required type="text" name="phone" class="form-control my-2"
+                                          placeholder="Telephone">
+                              </div>
+                              <div class="col-md-6 px-1">
+                                    <input required type="text" name="email" class="form-control my-2"
+                                          placeholder="Email">
+                              </div>
+                        </div>
+                        <div class="row d-flex container justify-content-center">
+                              <textarea name="textArea" class="col-md-12 my-2 mx-2" id="exampleFormControlTextarea1"
+                                    rows="5" placeholder="Write Your Message Here..."></textarea>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                              <button type="submit" class="btn w-50 btn-primary my-4 ">Submit</button>
+                        </div>
+                        </div>
+
+                  </form>
+            </section>
+
+            <!-- sixth section -->
+            <section class="faqs col-md-10 container w-100">
+                  <div class="faqs-header container">
+                        <div>Faq's</div>
+                        <hr />
+
+                  </div>
+                  <div class="container ">
+                        <div class="card">
+                              <div class="card-header " id="headingOne">
+                                    <h5 class="mb-0">
+                                          <button class="btn btn-link">
+                                                Purchasing A Name
+                                          </button>
+                                    </h5>
+                              </div>
+
+                              <div class="collapse">
+                                    <div class="card-body">
+                                          When you see a domain you like, simply select the name, then hit the “Buy Now
+                                          button. This will take you to a checkout screen powered by one of our partner
+                                          premium domain marketplaces, where you can enter your personal info/payment
+                                          information and purchase a name.
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                          <button class="btn btn-link ">
+                                                What Is A Business
+                                          </button>
+                                    </h5>
+                              </div>
+                              <div class="collapse">
+                                    <div class="card-body" id="paragraph2">
+                                          When you see a domain you like, simply select the name, then hit the “Buy Now
+                                          button. This will take you to a checkout screen powered by one of our partner
+                                          premium domain marketplaces, where you can enter your personal info/payment
+                                          information and purchase a name.
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                          <button class="btn btn-link ">
+                                                Premium Name Guide
+                                          </button>
+                                    </h5>
+                              </div>
+                              <div class="collapse">
+                                    <div class="card-body" id="paragraph3">
+                                          When you see a domain you like, simply select the name, then hit the “Buy Now
+                                          button. This will take you to a checkout screen powered by one of our partner
+                                          premium domain marketplaces, where you can enter your personal info/payment
+                                          information and purchase a name.
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+
+      </main>
+
+      <footer class="bg-dark text-white">
+            <div class="footerinfo col-md-12 w-100  d-flex align-items-center justify-content-center">
+                  <div class=" container col-md-12 w-100  d-flex align-items-center row">
+                        <div class="logo col-md-6">
+                              <a href="./index.html"><img src="./assets/desktop/Group 159.png" alt="logo"
+                                          class="mt-2 " /></a>
+                        </div>
+                        <div class="social container d-flex justify-content-end  align-items-center col-md-6">
+                              <i id="facebook"
+                                    class="fab fa-facebook-f d-flex justify-content-center align-items-center m-1"></i>
+                              <i id="linkedIn"
+                                    class="fab fa-linkedin-in d-flex justify-content-center  align-items-center m-1"></i>
+                              <i id="tweeter"
+                                    class="fab fa-twitter d-flex justify-content-center align-items-center m-1"></i>
+                        </div>
+                  </div>
+
+
+            </div>
+
+            <div class="w-100 orangeline">
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center footertext p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  ©2022 Proudly Made by Us!
+            </div>
+            <!-- Copyright -->
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+            crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script src="./js/form-validation.js"></script>
+
+</body>
+
+</html>
