@@ -1,5 +1,4 @@
-# One-page-Demo
-
+# One page responsive page
 
 live demo: [https://one-page-demo.surge.sh/]
 
